@@ -19,7 +19,12 @@
     margin: 0;
 }
 body{
-    background-color: paleturquoise !important;
+    background-image: url(https://png.pngtree.com/background/20230527/original/pngtree-tech-background-picture-image_2759047.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 img{
@@ -35,6 +40,10 @@ h1 {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
 }
 .card-header{
     height: 200px;
